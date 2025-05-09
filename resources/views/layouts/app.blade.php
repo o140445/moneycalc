@@ -24,6 +24,15 @@
     @yield('content')
 </main>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KWLY02K5T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4KWLY02K5T');
+</script>
+
 <footer class="text-center text-sm text-gray-500 py-4 ">
     &copy; {{ date('Y') }} Money Calc Tools. {{ __('All rights reserved.') }}
 </footer>
