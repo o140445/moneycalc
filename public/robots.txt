@@ -1,2 +1,12 @@
 User-agent: *
-Disallow:
+Disallow: /api/
+Disallow: /tip-calculator$
+Disallow: /mortgage-calculator/calculate
+Disallow: /loan-calculator/calculate
+Disallow: /auto-loan-calculator/calculate
+Disallow: /interest-calculator/calculate
+Disallow: /payment-calculator/calculate
+
+Allow: /
+
+Sitemap: https://www.moneycalctool.com/sitemap.xml
