@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /api/
-Disallow: /tip-calculator$
 Disallow: /mortgage-calculator/calculate
 Disallow: /loan-calculator/calculate
 Disallow: /auto-loan-calculator/calculate
